@@ -13,8 +13,6 @@ from joblib import load
 st.set_page_config(page_title='ODI Win Predictor',layout="centered")
 
 
-
-
 column_transformer = load('column_transformer.joblib')
 label_encoder=load('label_encoder.joblib')
 #Get the ML model 
@@ -49,7 +47,7 @@ with st.expander("Description"):
 # SELECT THE BATTING TEAM
 
 
-bat_team= st.selectbox('Select the Batting Team ',('India', 'Afghanistan', 'Australia','Pakistan','Bangladesh','England'))
+bat_team= st.selectbox('Select the Batting Team ',('IND', 'AFG', 'AUS','PAK','BAN','ENG','RSA','NZ','WI'))
 
   # Batting Team
 
@@ -59,7 +57,7 @@ bat_team= st.selectbox('Select the Batting Team ',('India', 'Afghanistan', 'Aust
 
 #SELECT BOWLING TEAM
 
-bowl_team = st.selectbox('Select the Bowling Team ',('India', 'Afghanistan', 'Australia','Pakistan','Bangladesh','England'))
+bowl_team = st.selectbox('Select the Bowling Team ',('IND', 'AFG', 'AUS','PAK','BAN','ENG','RSA','NZ','WI'))
 if bowl_team==bat_team:
     st.error('Bowling and Batting teams should be different')
 
