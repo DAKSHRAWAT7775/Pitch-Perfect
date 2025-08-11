@@ -1,8 +1,8 @@
 # 🎯 Pitch Perfect - Cricket Win Predictor
 
 ## 📌 Overview
-**Pitch Perfect** is a data-driven cricket win prediction app that analyzes historical match data, player performance metrics, and match conditions to calculate the probability of a team winning or losing.  
-Built with **Python** and **Streamlit**, the app delivers real-time insights, personalized predictions, and interactive simulations for cricket fans, coaches, commentators, and industry professionals.
+**Pitch Perfect** is a data-driven cricket win prediction app that analyzes historical match data, player performance metrics and match conditions to calculate the probability of a team winning or losing.  
+Built with **Python** and **Streamlit**, the app delivers real-time insights, personalized predictions and interactive simulations for cricket fans, coaches, commentators and industry professionals.
 
 ---
 
@@ -48,9 +48,3 @@ Built with **Python** and **Streamlit**, the app delivers real-time insights, pe
 
 ---
 
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the Streamlit app
-streamlit run app.py
